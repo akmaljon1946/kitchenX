@@ -1,7 +1,7 @@
 
 import './Card.css'
-
-const ProductCard = ({ image, title }) => {
+// eslint-disable-next-line react/prop-types
+const ProductCard = ({ image,  title }) => {
     return (
         <div className="product-card">
 				<a className='product-link' href={image}>
