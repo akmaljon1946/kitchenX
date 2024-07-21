@@ -41,7 +41,7 @@ export const card = [
 			'GN1/2/40',
 	},
 	{
-		image: 'GN1w2d650.jpg',
+		image: 'GN1w2d65.jpg',
 		title:
 			'GN1/2/65',
 	},
