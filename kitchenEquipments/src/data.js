@@ -135,5 +135,15 @@ export const card = [
 		title:
 			'GN1/6/200',
 	},
+	{
+		image: 'GN1w9d65.jpg',
+		title:
+			'GN1/9/65',
+	},
+	{
+		image: 'GN1w9d100.jpg',
+		title:
+			'GN1/9/100',
+	},
 
 ]
