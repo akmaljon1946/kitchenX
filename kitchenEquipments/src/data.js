@@ -156,12 +156,12 @@ export const card = [
 			'GNk1/2',
 	},
 	{
-		image: 'GNk1w3.jpg',
+		image: 'GNk1w4.jpg',
 		title:
-			'GNk1/3',
+			'GNk1/4',
 	},
 	{
-		image: 'GN1w6.jpg',
+		image: 'GNk1w6.jpg',
 		title:
 			'GNk1/6',
 	},
