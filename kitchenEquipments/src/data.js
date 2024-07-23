@@ -168,7 +168,27 @@ export const card = [
 	{
 		image: 'GNk1w9.jpg',
 		title:'Гастроемкость',
-			description:'GN1/9',
+			description:'GNk1/9',
+	},
+	{
+		image: 'GNf1w1d25.jpg',
+		title:'Гастроемкость',
+			description:'GNf1/1/25',
+	},
+	{
+		image: 'GNf1w1d65.jpg',
+		title:'Гастроемкость',
+			description:'GNf1/1/65',
+	},
+	{
+		image: 'GNf1w1d100.jpg',
+		title:'Гастроемкость',
+			description:'GNf1/1/100',
+	},
+	{
+		image: 'GNf1w1d150.jpg',
+		title:'Гастроемкость',
+			description:'GNf1/1/150',
 	},
 	{
 		image: 'GNp1w1d65.jpg',
