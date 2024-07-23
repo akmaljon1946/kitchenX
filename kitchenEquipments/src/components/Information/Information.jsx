@@ -5,12 +5,12 @@ import ProductCard from "../Card/Card"
 
 function Information() {
 	return (
-		<>
-			<div className="product">
+		<>		
+			<ul className="product-card">
 				{card.map(way => (
 					<ProductCard key={way.title} {...way}  />
-				))}			
-			</div>
+				))}					
+			</ul>
 		</>
 	)
 }
