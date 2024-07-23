@@ -4,7 +4,7 @@ import './Card.css'
 const ProductCard = ({ image,  title,description }) => {
     return (
         
-          <li className='product'>
+          <li className='product-card'>
 				<a className='product-link' href={image}>
             <img src={image} alt={title} className="product-image" />
             <p className="product-title">{description}</p>

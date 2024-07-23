@@ -6,7 +6,7 @@ import ProductCard from "../Card/Card"
 function Information() {
 	return (
 		<>		
-			<ul className="product-card">
+			<ul className="product">
 				{card.map(way => (
 					<ProductCard key={way.title} {...way}  />
 				))}					
