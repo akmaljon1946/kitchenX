@@ -170,5 +170,60 @@ export const card = [
 		title:
 			'GN1/9',
 	},
+	{
+		image: 'GNp1w6d65.jpg',
+		title:
+			'GN1/6/65',
+	},
+	{
+		image: 'GNp1w1d100.jpg',
+		title:
+			'GN1/1/100',
+	},
+	{
+		image: 'GNp1w1d150.jpg',
+		title:
+			'GN1/1/150',
+	},
+	{
+		image: 'GNp1w1d200.jpg',
+		title:
+			'GN1/1/200',
+	},
+	{
+		image: 'GNp1w3d65.jpg',
+		title:
+			'GN1/3/65',
+	},
+	{
+		image: 'GNp1w3d100.jpg',
+		title:
+			'GN1/3/100',
+	},
+	{
+		image: 'GNp1w3d150.jpg',
+		title:
+			'GN1/3/150',
+	},
+	{
+		image: 'GNp1w3d200.jpg',
+		title:
+			'GN1/3/200',
+	},
+	{
+		image: 'GNp1w4d65.jpg',
+		title:
+			'GN1/4/65',
+	},
+	{
+		image: 'GNp1w4d100.jpg',
+		title:
+			'GN1/4/100',
+	},
+	{
+		image: 'GNp1w4d150.jpg',
+		title:
+			'GN1/4/150',
+	},
 
 ]
