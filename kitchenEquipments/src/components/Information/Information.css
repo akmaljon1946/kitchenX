@@ -1,0 +1,16 @@
+.container{
+	max-width: 1400px;
+	padding: 0 2px;
+	margin: 0 auto;
+}
+
+.title{
+	text-align: center;
+}
+
+
+.product{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}

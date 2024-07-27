@@ -317,3 +317,11 @@ export const card = [
 	},
 
 ]
+
+export const dish =[
+	{
+		image: 'GNpk1w9.jpg',
+		title:'Гастроемкость',
+			description:'GNpk1/9',
+	},
+]
