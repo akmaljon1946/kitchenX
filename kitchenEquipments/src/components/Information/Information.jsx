@@ -5,6 +5,8 @@ import ProductCard from "../Card/Card"
 
 const Information=()=> 
 	(
+		<>
+		<div className="information">
 		<div className='container'>		
 		<h1 className="title">Гастроемкости</h1>
 			<ul className="product">
@@ -13,6 +15,9 @@ const Information=()=>
 				))}					
 			</ul>
 		</div>
+		</div>
+
+		</>
 	)
 
 
