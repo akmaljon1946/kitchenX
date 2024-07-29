@@ -6,13 +6,16 @@ import About from './components/About/About';
 
 function App ()  {
     return (
-      <Router>
-        <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/information" element={<Information/>} />
-        </Routes>
-      </Router>
+      <>
+        <Information/>
+      </>
+      // <Router>
+      //   <Routes>
+      //     <Route path='/' element={<Home/>} />
+      //     <Route path="/about" element={<About/>} />
+      //     <Route path="/information" element={<Information/>} />
+      //   </Routes>
+      // </Router>
     );
   }
     export default App
