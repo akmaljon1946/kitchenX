@@ -1,6 +1,6 @@
 import './Home.css'
 import { Link } from 'react-router-dom';
-import img from '/public/kitchen.jpg'
+
 
 
 
@@ -12,7 +12,7 @@ const  Home = () => (
 				<Link className='link fromRight' to="/about">Нейтральное оборудования</Link>
 		</div>			
 		<div className="main">
-			<img src={img} alt="kitchen" className="main-img" />
+			<img src='/kitchen.jpg' alt="kitchen" className="main-img" />
 		</div>
 	</>
 	);

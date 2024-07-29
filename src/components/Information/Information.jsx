@@ -3,7 +3,7 @@ import { card } from "../../data"
 import ProductCard from "../Card/Card"
 
 
-const Information=()=> 
+const Information = () => 
 	(
 		<>
 		<div className="information">
