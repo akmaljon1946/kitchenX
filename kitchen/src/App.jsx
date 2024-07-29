@@ -7,15 +7,14 @@ import About from './components/About/About';
 function App ()  {
     return (
       <>
-        <Information/>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/information" element={<Information/>} />
+        </Routes>
+      </Router>
       </>
-      // <Router>
-      //   <Routes>
-      //     <Route path='/' element={<Home/>} />
-      //     <Route path="/about" element={<About/>} />
-      //     <Route path="/information" element={<Information/>} />
-      //   </Routes>
-      // </Router>
     );
   }
     export default App
