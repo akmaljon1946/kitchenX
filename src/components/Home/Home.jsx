@@ -1,5 +1,5 @@
 import './Home.css'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -8,8 +8,11 @@ const  Home = () => (
 	<>
 		<div className='header'>
 			<h1 className='header-title'>KitchenXequipments</h1>
-				<Link className='link fromRight' to="/information">Гастроемкости</Link>
-				<Link className='link fromRight' to="/about">Нейтральное оборудования</Link>
+			<nav>
+
+				<NavLink className='link fromRight' to="/information">Гастроемкости</NavLink>
+				<NavLink className='link fromRight' to="/about">Нейтральное оборудования</NavLink>
+			</nav>
 		</div>			
 		<div className="main">
 			<img src='kitchen.jpg' alt="kitchen" className="main-img" />
