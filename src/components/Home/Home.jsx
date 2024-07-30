@@ -12,7 +12,7 @@ const  Home = () => (
 				<Link className='link fromRight' to="/about">Нейтральное оборудования</Link>
 		</div>			
 		<div className="main">
-			<img src='/kitchen.jpg' alt="kitchen" className="main-img" />
+			<img src='kitchen.jpg' alt="kitchen" className="main-img" />
 		</div>
 	</>
 	);
