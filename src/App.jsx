@@ -1,19 +1,10 @@
-import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Information from './components/Information/Information';
-import Home from './components/Home/Home';
-import About from './components/About/About';
+import Information from './components/Information/Information'
 
 
 function App ()  {
     return (
       <>
-      <Router>
-        <Routes>
-          <Route path='/kitchenx' exact element={<Home/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/information" element={<Information/>} />
-        </Routes>
-      </Router>
+      <Information/>
       </>
     );
   }
@@ -21,3 +12,5 @@ function App ()  {
     
 
 
+
+  
