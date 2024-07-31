@@ -1,16 +1,16 @@
-import './Information.css'
-import { card } from "../../data"
+import React from 'react'
+import { dish } from "../../data"
 import ProductCard from "../Card/Card"
 
 
-const Information = () => 
+const About = () => 
 	(
 		<>
 		<div className="information">
 		<div className='container'>		
-		<h1 className="title">Гастроемкости</h1>
+		<h1 className="title">Нейтральное оборудования</h1>
 			<ul className="product">
-				{card.map(way => (
+				{dish.map(way => (
 					<ProductCard key={way.title} {...way}  />
 				))}					
 			</ul>
@@ -21,4 +21,4 @@ const Information = () =>
 	)
 
 
-export default Information
+export default About
