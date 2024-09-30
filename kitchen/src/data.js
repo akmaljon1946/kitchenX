@@ -325,3 +325,10 @@ export const dish =[
 			description:'GNpk1/9',
 	},
 ]
+export const product =[
+	{
+		image: 'beefham.jpg',
+		title:'колбаски',
+			description:'ветчина',
+	},
+]
